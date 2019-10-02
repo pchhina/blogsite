@@ -1,0 +1,78 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: arial, sans-serif;
+	font-size: 1.04em;
+	line-height: 2em;
+	color: #525252;
+}
+
+p {
+	color: #474747;
+	font-family: "arial rounded", sans-serif;
+}
+
+a {
+	color: #CB4335;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover {
+	color: #333333;
+}
+
+hr {
+	color: #C7C7C7;
+}
+
+/* <---Stuff related to homepage---> */
+.content {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.intro {
+	text-align: center;
+	margin-top: 200px;
+}
+
+/* <-----------------------------> */
+
+/* <---Stuff related to navbar---> */
+
+.nav {
+	overflow: hidden;
+	font-weight: 700;
+}
+
+
+.nav a {
+	float: left;
+	padding: 25px 15px 5px 15px;
+}
+
+.nav-right {
+	float: right;
+}
+/* <-----------------------------> */
+
+
+
+/* <---title of blog and projects---> */
+.title {
+	text-align: center;
+}
+/* <-----------------------------> */
+
+/* <---syntax highlighting      ---> */
+.highlight {
+	font-size: 16px;
+}
+/* <-----------------------------> */
+
+img {
+	width: 75%;
+	display: block;
+	margin: auto;
+}
