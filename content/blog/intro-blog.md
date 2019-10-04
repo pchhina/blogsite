@@ -1,59 +1,12 @@
 ---
-title: "Intro Blog"
+title: "A new world"
 date: 2019-09-28T10:55:33-05:00
 draft: false
 ---
-## The beginning (h2)
-As they say, to begin, begin. So here I am!. For the portfolio website, I wanted to start from the beginning. Over the last few years, I was constantly trying to make a cleaner portfolio but hacking someone else's theme has its downsides. I found that while it is easy to get to 80% of what you want quickly but to get the rest 20% is a challenge. Especially when you say to yourself that oh, it's the only project I am using HTML, CSS and GO so there is no need to learn the fundamentals.
+Over the last couple of years, I have developed an interest to learn more about computers and computing. After shorter jibes at very specific topics (data science with R and a little bit of python) I want to do more systematic learning in some areas and learn more fundamentals. At the moment it seems like I might be focusing on data and AI but I don't know. My thinking and interests are sure to evolve as I learn more. It's gonna be some work but I am very excited at the moment.
 
-Over the last few months however, I am constantly trying to make my life simple but still functional. I am attracted to designs that are simple and minimal but at the same time don't give up the functionality. 
+I believe the best way to learn computer science (or anything for that matter) is to look out for stuff that interests you **strongly** and then see what you want to **build** in those areas. Strong interest is very important to learn deep and building things keeps the motivation.
 
-## Second level heading (h3)
-This is a second level heading. Now I am going to try some common markdown formats.
+One thing that engages me deeply are areas where stuff is complicated. I am a big fan of simple but robust and functional things. Everyday I come across tons of things that are poorly designed, semi-functional and break often. In the software world, it seems like it's accepted norm!
 
-> #### This is h4 level block quote.
-
-## Now to show example of links
-Here is the [website](https://thoughtbot.com/blog) that inspired the design of my blog.
-
-## Now to show code in a regular paragraph
-A simple python program will look like `print ("Hello World")`.
-
-## Now to show code in a separate block
-You will have to indent the block by 4 spaces or 1 tab.
-
-```python
- msg = "Hello World!"
- print(msg)
- def main():
-  for i in range(10):
-    print(i)
-
- main()
-```
-
-```r
-msg <- "Hello World!"
-print(msg)
-```
-
-```javascript
-var products = ["Choo Cho Chocolate", "Icy Mint", "Cake Batter"];
-var hasBubblegum = [false, true, false];
-var i = 0;
-```
-
-Ok, these are different languages. But they do look the same in terms of highlighting. Now let's move onto integrating MathJax.
-
-### Integrating Mathjax
-
-$$
-\begin{align}
-a = b^2 + c^3 \newline
-\sqrt(x+y)=z^{4+exp(n)}
-\end{align}
-$$
-
-### Integrating Images
-
-![test image](/img/test.jpg)
+Hopefully I start to see these problems through a differnt lens as I move in my journey and start to contribute in a meaningful way by solving little problems. I will continue to write about my experiences as I go along. Wish me luck!
