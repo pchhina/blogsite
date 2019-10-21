@@ -62,5 +62,5 @@ True
 In [57]:
 ```
 
-Ok, the alogorithm works correctly with our few test cases. I am curious now to
+Ok, the algorithm works correctly with our few test cases. I am curious now to
 find how fast (or slow!) it is compared to the built-in function.
