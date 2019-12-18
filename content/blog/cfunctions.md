@@ -3,7 +3,7 @@ title: "C Functions"
 date: 2019-12-16T18:22:54-06:00
 draft: false
 ---
-Functions in C are set up a bit differently than I have seen other languages so it's
+Functions in C are set up a bit differently, so it's
 worth taking a note. Basically, to use a function, we need to do three things:
 
 1. **Declare prototype**: This is like the header line in function definition but
