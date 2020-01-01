@@ -1,4 +1,5 @@
 {{ partial "header" . }}
    <h1 class = "title">{{.Title}}</h1>
+   {{dateFormat "Monday, Jan 2, 2006" .Date}} {{ partial "tags.html" . }}
    <div>{{.Content}}</div> 
 {{ partial "footer" . }}
