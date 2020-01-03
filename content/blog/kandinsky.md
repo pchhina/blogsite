@@ -1,6 +1,7 @@
 ---
 title: "Kandinsky at the Bauhaus (Circles in a Circle)"
 date: 2019-10-22T19:44:20-05:00
+tags: ["JavaScript"]
 draft: false
 ---
 

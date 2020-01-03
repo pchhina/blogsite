@@ -1,6 +1,7 @@
 ---
 title: "Point me to Pointers"
 date: 2019-12-17T18:09:59-06:00
+tags: ["C", "Basics"]
 draft: false
 ---
 

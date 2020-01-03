@@ -1,6 +1,7 @@
 ---
 title: "Finding the Greatest Common Divisor"
 date: 2019-10-20T18:54:43-05:00
+tags: ["Python", "Algorithms"]
 draft: false
 ---
 It turns out that the problem of finding the greatest common divisor can be

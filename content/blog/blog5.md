@@ -1,6 +1,7 @@
 ---
 title: "Finding Two Larger Numbers Out of Three"
 date: 2019-11-03T09:14:40-06:00
+tags: ["Scheme", "Algorithms"]
 draft: false
 ---
 

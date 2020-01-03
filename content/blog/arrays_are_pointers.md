@@ -1,7 +1,7 @@
 ---
 title: "Array name is pointer to first element"
 date: 2019-12-22T06:48:23-06:00
-tags: ["C", "Array"]
+tags: ["C", "Basics"]
 draft: false
 ---
 

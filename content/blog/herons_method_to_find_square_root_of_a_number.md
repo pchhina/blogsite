@@ -1,6 +1,7 @@
 ---
 title: "Herons Method to Find Square Root of a Number"
 date: 2019-10-20T07:34:36-05:00
+tags: ["Python", "Algorithms"]
 draft: false
 ---
 Heron's method is a simple algorithm to find the square root of any number. It
