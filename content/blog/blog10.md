@@ -1,7 +1,7 @@
 ---
 title: "Integer overflow behavior in C"
 date: 2020-01-02T19:42:29-06:00
-tags: ["C", "Pitfalls"]
+tags: ["C", "Security"]
 draft: false
 ---
 As I continue to explore the C language, I realize that this is way different
@@ -33,7 +33,7 @@ down.
 - Are there any tools out there already that can implement this check?
 - Is there a way to check this in an existing program?
 
-An interesting topic that needs some furthr thought!
+An interesting topic that needs some further thought!
 
 ## A Sample Program
 ```C
