@@ -48,7 +48,7 @@ def gcd(x, y):
 ## Is it Correct?
 Let's spotcheck our algorithm by comparing it with `gcd()` function from `math`
 module:
-```bash
+```python
 In [11]: nums = [(42, 48), (48, 96), (1024, 4096), (3254, 4242)]                         
                                                                                          
 In [12]: for i in nums:                                                                  
