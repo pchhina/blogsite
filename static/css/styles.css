@@ -1,15 +1,18 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-	font-family: arial, sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 	font-size: 1.04em;
-	line-height: 2em;
-	color: #525252;
+	line-height: 1.7em;
+	color: #555555;
+}
+.title {
+    line-height: 1.2em;
 }
 
 p {
-	color: #474747;
-	font-family: "arial rounded", sans-serif;
+	color: #575757;
+	font-family: Roboto, "arial rounded", sans-serif;
 }
 
 a {
@@ -83,7 +86,7 @@ pre {
 
 pre {
   padding: 1rem;
-  border: 1px solid #808080;
+  border: 1px solid #616161;
 }
 
 pre code {
