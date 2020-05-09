@@ -10,9 +10,10 @@ body {
     line-height: 1.2em;
 }
 
-p {
-	color: #434343;
-	font-family: Roboto, "arial rounded", sans-serif;
+p, li{
+	color: #3A3A3A;
+	font-family: 'Source Sans Pro', "arial rounded", sans-serif;
+        font-size: 1.12em;
 }
 
 a {
