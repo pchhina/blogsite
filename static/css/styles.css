@@ -10,7 +10,8 @@ body {
     line-height: 1.2em;
 }
 
-p, li{
+/* content of single page and blog list page*/
+p, li, #date-tag, #list{
 	color: #3A3A3A;
 	font-family: 'Source Sans Pro', "arial rounded", sans-serif;
         font-size: 1.12em;

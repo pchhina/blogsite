@@ -2,7 +2,7 @@
 <h1 class="title">{{ .Title }}</h1>
      <!-- cycle through all files in content folder. -->
      {{ range .Pages }}
-     <div>{{dateFormat "2006-01-02" .Date }}
+     <div id = "list">{{dateFormat "2006-01-02" .Date }}
      <a href="{{.Permalink}}">{{.Title}}</a> </div>
      {{ end }}
 {{ partial "footer" . }}
