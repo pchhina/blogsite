@@ -1,5 +1,5 @@
 body {
-	width: 960px;
+        max-width: 960px;
 	margin: 0 auto;
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 1.04em;
@@ -33,7 +33,7 @@ hr {
 
 /* <---Stuff related to homepage---> */
 .content {
-	width: 750px;
+	width: 90%;
 	margin: 0 auto;
 }
 
