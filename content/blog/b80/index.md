@@ -2,7 +2,7 @@
 title: "To program is to write arithmatic expressions"
 date: 2021-06-04T23:58:36-05:00
 draft: false
-tags: ["Design"]
+tags: ["Design", "BSL"]
 ---
 One perspective to program is simply to write arithmatic expressions. Some key observations:
 

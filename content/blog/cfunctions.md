@@ -1,7 +1,7 @@
 ---
 title: "C Functions"
 date: 2019-12-16T18:22:54-06:00
-tags: ["C", "Basics"]
+tags: ["C"]
 draft: false
 ---
 Functions in C are set up a bit differently, so it's

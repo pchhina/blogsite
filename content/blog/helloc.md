@@ -1,7 +1,7 @@
 ---
 title: "Hello C"
 date: 2019-12-15T11:33:09-06:00
-tags: ["C", "Basics"]
+tags: ["C"]
 draft: false
 ---
 
