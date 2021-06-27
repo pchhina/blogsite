@@ -28,9 +28,9 @@ over a hundred data points, so we chose dark green solid circle of size
 4.
 
 ```R
-    air = datasets::airquality
-    plt = ggplot(air, aes(Wind, Ozone))
-    plt + geom_point(color = 'darkgreen', size = 4)
+air = datasets::airquality
+plt = ggplot(air, aes(Wind, Ozone))
+plt + geom_point(color = 'darkgreen', size = 4)
 ```
 
 ![](./unnamed-chunk-1-1.png)
@@ -39,9 +39,9 @@ For even smaller number of points, I like to use larger circle with
 darker border and (somewhat) lighter color.
 
 ```R
-    cars = datasets::cars
-    plt = ggplot(cars, aes(speed, dist))
-    plt + geom_point(color = 'darkred', size = 3, shape = 21, stroke = 2, fill = 'pink')
+cars = datasets::cars
+plt = ggplot(cars, aes(speed, dist))
+plt + geom_point(color = 'darkred', size = 3, shape = 21, stroke = 2, fill = 'pink')
 ```
 
 ![](./unnamed-chunk-2-1.png)
@@ -53,9 +53,9 @@ circles masks most of the data making it harder to see any trend or data
 density information.
 
 ```R
-    nyc = nycflights13::weather
-    plt2 = ggplot(nyc, aes(temp, pressure))
-    plt2 + geom_point(size = 2, shape = 19, alpha = 1, color = 'deepskyblue4')
+nyc = nycflights13::weather
+plt2 = ggplot(nyc, aes(temp, pressure))
+plt2 + geom_point(size = 2, shape = 19, alpha = 1, color = 'deepskyblue4')
 ```
 
 ![](./unnamed-chunk-3-1.png)
@@ -63,7 +63,7 @@ density information.
 So we could either set the alpha to a very low value:
 
 ```R
-    plt2 + geom_point(size = 1,alpha = 0.1, color = 'deepskyblue3')
+plt2 + geom_point(size = 1,alpha = 0.1, color = 'deepskyblue3')
 ```
 
 ![](./unnamed-chunk-4-1.png)
@@ -71,7 +71,7 @@ So we could either set the alpha to a very low value:
 Or just represent data with a dot instead of circle:
 
 ```R
-    plt2 + geom_point(shape = '.', color = 'red')
+plt2 + geom_point(shape = '.', color = 'red')
 ```
 
 ![](./unnamed-chunk-5-1.png)
@@ -84,7 +84,7 @@ highlight this if sharing such a visualization with your collaborators
 or readers.
 
 ```R
-    plt2 + geom_jitter(shape = '.', color = 'red')
+plt2 + geom_jitter(shape = '.', color = 'red')
 ```
 
 ![](./unnamed-chunk-6-1.png)
