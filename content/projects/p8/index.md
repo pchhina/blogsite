@@ -17,7 +17,7 @@ A simple web-based drawing app with following features:
 ![Sample](./draw-app.png)
 
 ## Code
-See the code [here](https://github.com/pchhina/drawapp) on Github.
+See the code [here](https://github.com/pchhina/lets-draw) on Github.
 
 ## What did I learn?
 - front-end skills including design, layout, typography
