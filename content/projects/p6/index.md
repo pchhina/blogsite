@@ -15,6 +15,7 @@ See the code [here](https://github.com/pchhina/merkel) on Github.
 
 ## What did I learn?
 - Object-oriented design principles in C++
+- File I/O
 
 ## What can be improved?
 - Speed-up for large data sets.

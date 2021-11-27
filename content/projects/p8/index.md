@@ -20,9 +20,10 @@ A simple web-based drawing app with following features:
 See the code [here](https://github.com/pchhina/drawapp) on Github.
 
 ## What did I learn?
-- Front-end skills including design, layout, typography
+- front-end skills including design, layout, typography
 - working with p5.js library
 - write image processing code
 
 ## What can be improved?
 - add undo feature
+- add a pencil tool

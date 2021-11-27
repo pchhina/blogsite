@@ -14,9 +14,10 @@ A classic game of space invaders built using programming design principles. Arro
 See the code [here](https://github.com/pchhina/space-invaders) on Github.
 
 ## What did I learn?
-- Program desing princicples
-- Designing with simple data structure
+- Program design principles including designing functions, data and worlds
+- Template based design
+- Designing with simple data structures
 
 ## What can be improved?
-- Bounding the tank with frame
-- Adding score count
+- Bounding the tank within the canvas frame
+- Adding score and lives
