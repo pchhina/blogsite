@@ -83,7 +83,7 @@ Mutual references contain two or more non-primitive data types that refer to eac
 
 
 ## Putting it together
-One key observation from above templates is a new data can *start* can be one of the following choices. Rest of the structure can be built by applying one or more rules described above repeatedly as needed.
+One key observation from the structure of above templates is that a new data can start with any one of the following choices. Rest of the structure can be built by applying one or more rules described above repeatedly as needed.
 
 1. Atomic Non-Distinct
 2. One Of
