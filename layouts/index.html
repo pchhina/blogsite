@@ -1,5 +1,9 @@
 {{ partial "header" . }}
 <div class="intro">
+    <div class="thumb">
+        {{ $image := resources.Get "images/profile.png" }}
+        <img src="{{ $image.RelPermalink }}" alt="" class="w-96">
+    </div>
 <h1>{{.Title}}</h1>
 <p>{{.Content}}</p>
 </div>

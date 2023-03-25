@@ -39,7 +39,22 @@ hr {
 
 .intro {
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 50px;
+}
+
+.intro h1 {
+    margin-top: 0px;
+    font-size: 4rem;
+}
+
+.thumb {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.thumb img {
+    border-radius: 50%;
 }
 
 /* <-----------------------------> */
