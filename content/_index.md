@@ -1,5 +1,5 @@
 ---
-title: "Hi, I'm <span class='highlight-name'>Paramjot</span>!"
+title: "Hi, I'm <span class='highlight-name'>Paramjot!</span>"
 date: 2019-09-29T07:36:16-05:00
 draft: false
 ---
