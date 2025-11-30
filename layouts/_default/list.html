@@ -1,8 +1,41 @@
-{{ partial "header" .}}
-<h1 class="title">{{ .Title }}</h1>
-     <!-- cycle through all files in content folder. -->
-     {{ range .Pages }}
-     <div id = "list">{{dateFormat "2006-01-02" .Date }}
-     <a href="{{.Permalink}}">{{.Title}}</a> </div>
-     {{ end }}
+{{ partial "header" . }}
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Search articles..." />
+</div>
+
+<div id="blog-list">
+    <!-- cycle through all files in content folder. -->
+    {{ range .Pages }}
+    <div class="list-item" data-title="{{ .Title | lower }}" data-tags="{{ if .Params.tags }}{{ delimit .Params.tags "," | lower }}{{ end }}" data-content="{{ .Summary | plainify | lower }}">
+        <span class="list-date">{{dateFormat "2006-01-02" .Date }}</span>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </div>
+    {{ end }}
+</div>
+
+<script>
+    const searchInput = document.getElementById('search-input');
+    const blogList = document.getElementById('blog-list');
+    const listItems = document.querySelectorAll('.list-item');
+
+    searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase().trim();
+
+        listItems.forEach(item => {
+            const title = item.getAttribute('data-title');
+            const tags = item.getAttribute('data-tags');
+            const content = item.getAttribute('data-content');
+
+            const searchableText = title + ' ' + tags + ' ' + content;
+
+            if (searchableText.includes(searchTerm)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+</script>
+
 {{ partial "footer" . }}

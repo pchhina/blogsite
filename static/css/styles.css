@@ -109,6 +109,45 @@ hr {
 .title {
     text-align: center;
 }
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #c7c7c7;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+#search-input:focus {
+    border-color: #cb4335;
+}
+
+#search-input::placeholder {
+    color: #999;
+}
+
+/* Blog List Items */
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-date {
+    color: #3a3a3a;
+    font-family: "Source Sans Pro", "arial rounded", sans-serif;
+    font-size: 1.15rem;
+    margin-right: 10px;
+}
+
 /* <-----------------------------> */
 
 img {
@@ -217,5 +256,14 @@ code {
 
     code {
         font-size: 0.85rem;
+    }
+
+    #search-input {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
+
+    .search-container {
+        margin: 20px auto;
     }
 }
