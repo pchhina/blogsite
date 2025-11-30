@@ -34,7 +34,7 @@ $ \mathbf {Step \, 6:}\, \text{Return } a^{2}+b^{2} $
 
 ## Scheme Implementation
 
-```{scheme}
+```scheme
 (define (square x) (* x x))
 
 (define (squared-sum x y) (+ (square x) (square y)))
@@ -54,7 +54,7 @@ $ \mathbf {Step \, 6:}\, \text{Return } a^{2}+b^{2} $
 
 ## Test
 
-```{scheme}
+```scheme
 > (squared-sumof-larger-two 5 6 7)
 85
 > (squared-sumof-larger-two 9 -1 2)
