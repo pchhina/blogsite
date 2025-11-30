@@ -26,11 +26,11 @@ hugo new blog/post-name.md              # Create new blog post
 
 **IMPORTANT: Blog Post Workflow**
 When creating new blog posts:
-1. ALWAYS create posts with `draft: true` in the frontmatter
-2. Create posts in their own folders (e.g., `content/blog/b101/index.md`)
+1. Use `hugo new blog/bXXX/index.md` to create the post (Hugo auto-generates correct timestamp and frontmatter)
+2. Write content with `draft: true` in the frontmatter
 3. DO NOT commit or push until the user reviews and edits
 4. After user approval, set `draft: false`, then commit and push
-5. Ensure the date is accurate (check system date in <env> context)
+5. Posts should be in their own folders (e.g., `content/blog/b101/index.md`) for better organization
 
 ## Architecture
 
