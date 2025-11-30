@@ -1,6 +1,6 @@
 ---
 title: "Python Project Organization"
-date: 2025-01-30T10:00:00-06:00
+date: 2024-11-30T10:00:00-06:00
 draft: false
 tags: ["Python", "Software Design"]
 ---

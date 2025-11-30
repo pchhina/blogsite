@@ -24,6 +24,14 @@ hugo                  # Build the site to ./public directory
 hugo new blog/post-name.md              # Create new blog post
 ```
 
+**IMPORTANT: Blog Post Workflow**
+When creating new blog posts:
+1. ALWAYS create posts with `draft: true` in the frontmatter
+2. Create posts in their own folders (e.g., `content/blog/b101/index.md`)
+3. DO NOT commit or push until the user reviews and edits
+4. After user approval, set `draft: false`, then commit and push
+5. Ensure the date is accurate (check system date in <env> context)
+
 ## Architecture
 
 ### Content Structure
